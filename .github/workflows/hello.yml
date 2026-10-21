@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello
-        run: echo "Hello world from V1"
+        run: echo "Hello world from V2"
+      - uses: actions/checkout@v7.0.1
